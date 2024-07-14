@@ -1,0 +1,2017 @@
+
+*{
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+ .body
+ {
+    background-color: rgba(149, 41, 142, 0.719);
+    width: 100%;
+    height: 100vh;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+ }
+ .body pre
+ {
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: capitalize;
+    z-index: 10;
+    margin-top: 300px;
+    color:black;
+    margin-left: 100px;
+    position: absolute;
+ }
+ .body img
+ {
+    width: 1350px;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 55px;
+    opacity: .8;
+ }
+ .body span
+ {
+    color: white;
+ }
+
+ header
+ {
+     display: flex;
+     background-color:  rgba(219, 116, 212, 0.719) ;
+     border-radius: 20px;
+     /* position: fixed;
+     width: 100%;
+     top: 0; */
+ }
+ .logo
+ {
+     display: flex;
+ }
+ .logo a
+ {
+     color:white;
+     text-transform: capitalize;
+ }
+ .logo a:hover
+ {
+     color:rgba(113, 32, 107, 0.719);
+     transition: .4s;
+     cursor: pointer;
+ 
+ }
+ .logo p
+ {
+     margin: 20px;
+     margin-left: 25px;
+     font-size: 35px;
+     font-weight: 900;
+ }
+ .logo img
+ {
+     width: 30px;
+     height: 30px;
+     margin-left: 20px;
+     margin-top: 26px;
+ }
+ .logo img:hover
+ {
+     cursor: pointer;
+ }
+ 
+ .list
+ {
+     margin-left: 500px;
+     margin-top: 30px;    
+ }
+ .list li
+ {
+     display: inline-block;
+     font-size: 20px;
+     margin-left: 25px;
+ }
+ .list li a
+ {
+     color:white ;
+     text-transform: capitalize;
+     font-weight: bold;
+ }
+ .list a:hover
+ {
+     color:rgba(113, 32, 107, 0.719);
+     transform: scale( 1.1 , 1.1 );
+     transition: .4s;
+     cursor: pointer;
+ }
+.fas
+{
+    visibility: hidden;
+}
+.sidebar
+{
+    display: none;
+}
+ .title h1
+{
+    margin-top: 100px;
+    margin-left: 580px;
+    font-size: 50px;
+    text-transform: capitalize;
+    color:  rgba(113, 32, 107, 0.719);
+}
+.title pre
+{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-left:400px ;
+    margin-top: 20px;
+    color: rgba(149, 41, 142, 0.719);
+}
+.middle
+{
+    display: flex;
+}
+.sections
+{
+    background-color: rgba(168, 63, 161, 0.719);
+    width: 500px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 50px;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    animation: animate 15s infinite linear;
+}
+.sections:hover{
+    animation-play-state: paused;
+}
+
+ @keyframes animate
+{
+    0%
+    {
+       rotate: 90deg;
+       
+    }
+    25%
+    {
+        rotate: 180deg;
+       
+    }
+    50%
+    {
+        rotate: 270deg;
+       
+    }
+    100%
+    {
+        rotate: 360deg;
+       
+    }
+    
+   
+} 
+ .sections a
+ {
+    color: white;
+ }
+ .sections a:hover
+ {
+    color:rgb(47, 7, 84) ;
+ }
+ .sections img:hover{
+    transform: scale(1.1,1.1);
+    transition: .7s;
+
+ } 
+ .sec1
+ {
+    position: absolute;
+    top: 40%;
+    left: 50px;
+ }
+.sec1 img
+{
+    width: 80px;
+    height: 80px;
+}
+.ta
+{
+   width: 150px;
+   height: 150px;
+   top: 30%;
+   left:170px;
+   background-color:rgba(245, 230, 202, 0.628) ;
+   border-radius: 50%;
+   position: absolute;
+   margin-top: 20px;   
+}
+.ta p
+{
+    padding-top: 65px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+.sec2
+{
+    position: absolute;
+    top: 50px;
+    left:160px ;
+}
+ .sec2 img
+{
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+   
+} 
+.sec3
+{
+    position: absolute;
+    top: 70%;
+    left: 130px;
+}
+.sec3 img
+{
+    width: 80px;
+    height: 80px;
+    margin-left: 70px;
+}
+.sec3 pre
+{
+   margin-left: 30px;
+}
+.sec4
+{
+    position: absolute;
+    top: 40%;
+    left: 360px;
+}
+.sec4 img
+{
+    width: 80px;
+    height: 80px;
+}
+.side img
+{
+    width: 700px;
+    height: 450px;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.ddd
+{
+    margin-top: 150px;
+}                  
+.ddd h1
+{
+    margin-left: 50px;
+    padding-top: 20px;
+    color: white;
+}
+.ddd pre
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 35px;
+}
+.mid1
+{
+    display: flex;
+}
+.ddd .f1
+{
+    background-color: rgba(113, 32, 107, 0.719);
+    height: 300px;
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 50px;
+} 
+.ddd .f2
+{
+    background-color: rgba(149, 41, 142, 0.719);
+    height: 300px;
+    border-radius: 20px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.mid2
+{
+    display: flex;
+}
+.ddd .f3
+{
+    background-color: rgba(185, 77, 178, 0.719);
+    height: 300px;
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding-right: 50px;
+}
+.f3 h2
+{
+    color: white;
+    font-size: 2em;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.ddd .f4
+{
+    background-color:  rgba(219, 116, 212, 0.719);    
+    height: 300px;
+    border-radius: 20px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.spec
+{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 160px;
+}
+.spe h1
+{
+    margin-top: 150px;
+    margin-left: 570px;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: rgba(113, 32, 107, 0.719);
+}
+.spe h2
+{
+    color: rgba(149, 41, 142, 0.719);
+    margin-left: 500px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.spe img
+{
+    width: 350px;
+    height: 400px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+.spe img:hover
+{
+   opacity: .7;
+   transform: scale(.9,.9);
+   transition: .3s;
+}
+.spe p
+{
+    font-size: 23px;
+    margin-left: 110px;
+    text-transform: capitalize;
+}
+.spe a
+{
+    color: black;
+}
+.spe a:hover
+{
+    opacity: .5;
+}
+
+.ser h1
+{
+    margin-top: 200px;
+    margin-left: 580px;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: rgba(113, 32, 107, 0.719);
+}
+
+.ser img
+{
+    margin-left: 70px;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px
+
+}
+.ser p
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.ser pre
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.ser .dep1
+{
+    display: flex;
+}
+.ser .f5
+{
+    background-color:  rgba(219, 116, 212, 0.719);    
+    width: 250px;
+    height: 200px;
+    border-radius: 50px;
+    margin: 50px;
+}
+.ser .f5:hover
+{
+    transform: scale(1.2,1.2);
+    transition: .7s;
+}
+
+.ser .f6
+{
+    background-color: rgba(185, 77, 178, 0.719);
+    width: 250px;
+    height: 200px;
+    border-radius: 50px;
+    margin: 50px;
+}
+.ser .f6:hover
+{
+    transform: scale(1.2,1.2);
+    transition: .7s;
+}
+.ser .f7
+{
+    background-color: rgba(149, 41, 142, 0.719);
+    width: 250px;
+    height: 200px;
+    border-radius: 50px;
+    margin: 50px;
+}
+.ser .f7:hover
+{
+    transform: scale(1.2,1.2);
+    transition: .7s;
+}
+.ser .f8
+{
+    background-color: rgba(113, 32, 107, 0.719);
+    width: 250px;
+    height: 200px;
+    border-radius: 50px;
+    margin: 50px;
+}
+.ser .f8:hover
+{
+    transform: scale(1.2,1.2);
+    transition: .7s;
+}
+.ser .dep2
+{
+    display: flex;
+}
+.ser .f9
+{
+    background-color: rgba(113, 32, 107, 0.719);
+    width: 250px;
+    height: 200px;
+    border-radius: 50px;
+    margin: 50px;
+}
+.ser .f9:hover
+{
+    transform: scale(1.2,1.2);
+    transition: .7s;
+}
+.ser .f10
+{
+    background-color: rgba(149, 41, 142, 0.719);
+    width: 250px;
+    height: 200px;
+    border-radius: 50px;
+    margin: 50px;
+}
+.ser .f10:hover
+{
+    transform: scale(1.2,1.2);
+    transition: .7s;
+}
+.ser .f11
+{
+    background-color: rgba(185, 77, 178, 0.719);
+    width: 250px;
+    height: 200px;
+    border-radius: 50px;
+    margin: 50px;
+}
+.ser .f11:hover
+{
+    transform: scale(1.2,1.2);
+    transition: .7s;
+}
+.ser .f12
+{
+    background-color:  rgba(219, 116, 212, 0.719);    
+    width: 250px;
+    height: 200px;
+    border-radius: 50px;
+    margin: 50px;
+}
+.ser .f12:hover
+{
+    transform: scale(1.2,1.2);
+    transition: .7s;
+}
+
+.hospital
+{
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.hospital h1
+{
+    color: rgba(113, 32, 107, 0.719);
+    text-transform:capitalize ;
+    margin-top: 20px;
+    margin-left: 500px;
+    font-size: 50px;
+}
+.climg
+{
+    margin-top: 20px;
+    display: flex;
+}
+.hospital img
+{
+    width: 450px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.client h1
+{
+    color: rgba(113, 32, 107, 0.719);
+    text-transform:capitalize ;
+    margin-top: 20px;
+    margin-left: 560px;
+    font-size: 50px;
+}
+.client div
+{
+    border-radius: 30px;
+}
+.cl
+{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.cl img
+{
+    width: 100px;
+    height: 100px;
+    margin-left: 95px;
+    margin-top: 20px;
+    border-radius: 50%;
+    
+}
+.cl p
+{
+    margin-left: 20px;
+    color: white;
+}
+
+.client .cl1
+{
+    width: 300px;
+    height: 250px;
+    background-color: rgba(113, 32, 107, 0.719) ;
+    margin-right: 30px;
+}
+.client .cl2
+{
+    width: 300px;
+    height: 250px;
+    background-color:  rgba(149, 41, 142, 0.719) ;
+    margin-right: 30px;
+}
+.client .cl3
+{
+    width: 300px;
+    height: 250px;
+    background-color: rgba(185, 77, 178, 0.719) ;
+    margin-right: 30px;
+}
+.client .cl4
+{
+    width: 300px;
+    height: 250px;
+    background-color: rgba(219, 116, 212, 0.719) ;
+    margin-right: 30px;
+}
+
+footer {
+    width: 100%;
+    height: 370px;
+    background-color: rgba(149, 41, 142, 0.719);
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.speech
+{
+    display: flex;
+}
+.speech h2
+{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.speech p
+{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.speech p:hover
+{
+    color: white;
+    cursor: pointer;
+}
+.content
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.info
+{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.legal
+{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.support
+{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.social{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.social h2
+{
+    font-size: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+}
+
+.section1 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.section1 img:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+/* .app
+{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(248, 246, 246);
+    margin-left: 80px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+.app img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.app:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+.and
+{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(250, 247, 247);
+    margin-left: 50px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+.and img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.and:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+} */
+footer hr
+{
+    height: 10px;
+}
+.end
+{
+ margin-left: 45%;
+ margin-top: 20px;
+}
+.end p
+{
+    color:black;
+}
+@media (max-width:500px)
+{
+   .body
+{
+   background-color: rgba(149, 41, 142, 0.719);
+   width:480px;
+   height: 100vh;
+   border-radius: 20px;
+   display: flex;
+   position: relative;
+}
+.body pre
+{
+   font-size: 30px;
+   font-weight: bold;
+   text-transform: capitalize;
+   z-index: 10;
+   color:black;
+   position: absolute;
+   margin-top: 250px;
+   margin-left: 60px;
+}
+.body img
+{
+   width: 430px;
+   height:100vh ;
+   border-radius: 20px;
+   margin: 25px;
+}
+
+   header
+  {
+    height: 90px;  
+  }
+  header img
+  {
+    display: none; 
+  }
+  header .fas
+  {
+   visibility: visible;
+   margin-left: 30px;
+   color: white;
+   font-size: 40px;
+   margin-top: 25px;
+  }
+  header .fas:hover
+  {
+   color: rgba(113, 32, 107, 0.719);
+  }
+  .sidebar{
+   position: fixed;
+   top: 0;
+   left: 0;
+   height: 100vh;
+   width: 250px;
+   z-index: 999;
+   background-color: rgba(189, 159, 159, 0.329);
+   box-shadow: -10px 0 10px rgb(0,0,0,0.1);
+   backdrop-filter: blur(10px);
+   display: none;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+  }
+
+.sidebar li {
+   width: 100%;
+   
+}
+.sidebar a {
+   width: 100%;
+   font-size: 20px;
+   color: white;
+   margin-left: 20px;
+}
+.sidebar a:hover{
+   cursor: pointer;
+   color:  rgba(113, 32, 107, 0.719);
+}
+.title h1
+{
+    margin-left: 45px;
+    margin-top:100px;
+    font-size: 50px;
+    text-transform: capitalize;
+    color:  rgba(113, 32, 107, 0.719);
+}
+.title pre
+{
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-left:20px ;
+    margin-top: 20px;
+    color: rgba(149, 41, 142, 0.719);
+}
+.sections
+{
+    background-color: rgba(168, 63, 161, 0.719);
+    width: 400px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 50px;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    animation: animate 15s infinite linear;
+}
+.sections:hover{
+    animation-play-state: paused;
+}
+
+ @keyframes animate
+{
+    0%
+    {
+       rotate: 90deg;
+       
+    }
+    25%
+    {
+        rotate: 180deg;
+       
+    }
+    50%
+    {
+        rotate: 270deg;
+       
+    }
+    100%
+    {
+        rotate: 360deg;
+       
+    }
+    
+   
+} 
+ .sections a
+ {
+    color: white;
+    font-size: 12px;
+ }
+ .sections a:hover
+ {
+    color:rgb(47, 7, 84) ;
+ }
+ .sections img:hover{
+    transform: scale(1.1,1.1);
+    transition: .7s;
+
+ } 
+ .sec1
+ {
+    position: absolute;
+    top: 40%;
+    left: 50px;
+ }
+.sec1 img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.ta
+{
+   width: 100px;
+   height: 100px;
+   top: 30%;
+   left:150px;
+   background-color:rgba(245, 230, 202, 0.628) ;
+   border-radius: 50%;
+   position: absolute;
+   margin-top: 20px;   
+}
+.ta p
+{
+    padding-top: 45px;
+    font-size: 12px;
+    color: white;
+}
+.sec2
+{
+    position: absolute;
+    top: 50px;
+    left:130px ;
+}
+ .sec2 img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+   
+} 
+.sec3
+{
+    position: absolute;
+    top: 70%;
+    left: 120px;
+}
+.sec3 img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 60px;
+}
+.sec3 pre
+{
+   margin-left: 30px;
+}
+.sec4
+{
+    position: absolute;
+    top: 40%;
+    left: 290px;
+}
+.sec4 img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.side img
+{
+    display: none;
+}
+
+.ddd
+{
+    margin-top: 150px;
+}
+                   
+.ddd h1
+{
+    margin-left: 50px;
+    padding-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+.ddd pre
+{
+    color: white;
+    font-size: 15px;
+    margin-top: 35px;
+}
+.mid1
+{
+    flex-direction: column;
+}
+.ddd .f1
+{
+    background-color: rgba(113, 32, 107, 0.719);
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left:50px;
+    margin-top: 50px;
+}
+.ddd .f2
+{
+    background-color: rgba(149, 41, 142, 0.719);
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left:50px;
+    margin-top: 50px;
+}
+.mid2
+{
+    flex-direction: column;
+}
+.ddd .f3
+{
+    background-color: rgba(185, 77, 178, 0.719);
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left:50px;
+    margin-top: 50px;
+}
+.f3 h2
+{
+    color: white;
+    font-size: 2em;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.ddd .f4
+{
+    background-color:  rgba(219, 116, 212, 0.719);    
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left:50px;
+    margin-top: 50px;
+}
+.spec
+{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 50px;
+    flex-direction: column;
+}
+.spe h1
+{
+    margin-top: 150px;
+    margin-left: 70px;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: rgba(113, 32, 107, 0.719);
+}
+.spe h2
+{
+    color: rgba(149, 41, 142, 0.719);
+    margin-left: 55px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.spe img
+{
+    width: 350px;
+    height: 400px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+.spe img:hover
+{
+   opacity: .7;
+   transform: scale(.9,.9);
+   transition: .3s;
+}
+.spe p
+{
+    font-size: 23px;
+    margin-left: 110px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.spe a
+{
+    color: black;
+}
+.spe a:hover
+{
+    opacity: .5;
+}
+.ser h1
+{
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: rgba(113, 32, 107, 0.719);
+}
+.ser .dep1
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.ser .dep2
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.ser img
+{
+    margin-left: 60px;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px
+
+}
+.ser p
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.ser pre
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.ser .f5
+{
+    background-color:  rgba(219, 116, 212, 0.719);    
+    width: 200px;
+    height: 170px;
+    border-radius: 50px;
+    margin: 20px;
+}
+.ser .f5:hover
+{
+    transform: scale(1.2,1.2);
+    transition: .7s;
+}
+
+.ser .f6
+{
+    background-color: rgba(185, 77, 178, 0.719);
+    width: 200px;
+    height: 170px;
+    border-radius: 50px;
+    margin: 20px;
+}
+.ser .f6:hover
+{
+    transform: scale(1.2,1.2);
+    transition: .7s;
+}
+.ser .f7
+{
+    background-color: rgba(149, 41, 142, 0.719);
+    width: 200px;
+    height: 170px;
+    border-radius: 50px;
+    margin: 20px;
+}
+.ser .f7:hover
+{
+    transform: scale(1.2,1.2);
+    transition: .7s;
+}
+.ser .f8
+{
+    background-color: rgba(113, 32, 107, 0.719);
+    width: 200px;
+    height: 170px;
+    border-radius: 50px;
+    margin: 20px;
+}
+.ser .f8:hover
+{
+    transform: scale(1.2,1.2);
+    transition: .7s;
+}
+.ser .f9
+{
+    background-color: rgba(113, 32, 107, 0.719);
+    width: 200px;
+    height: 170px;
+    border-radius: 50px;
+    margin: 20px;
+}
+.ser .f9:hover
+{
+    transform: scale(1.2,1.2);
+    transition: .7s;
+}
+.ser .f10
+{
+    background-color: rgba(149, 41, 142, 0.719);
+    width: 200px;
+    height: 170px;
+    border-radius: 50px;
+    margin: 20px;
+}
+.ser .f10:hover
+{
+    transform: scale(1.2,1.2);
+    transition: .7s;
+}
+.ser .f11
+{
+    background-color: rgba(185, 77, 178, 0.719);
+    width: 200px;
+    height: 170px;
+    border-radius: 50px;
+    margin: 20px;
+}
+.ser .f11:hover
+{
+    transform: scale(1.2,1.2);
+    transition: .7s;
+}
+.ser .f12
+{
+    background-color:  rgba(219, 116, 212, 0.719);    
+    width: 200px;
+    height: 170px;
+    border-radius: 50px;
+    margin: 20px;
+}
+.ser .f12:hover
+{
+    transform: scale(1.2,1.2);
+    transition: .7s;
+}
+
+.hospital
+{
+    margin-left: 15px;
+    margin-top: 100px;
+}
+.climg
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.hospital h1
+{
+    color: rgba(113, 32, 107, 0.719);
+    text-transform:capitalize ;
+    margin-top: 20px;
+    margin-left: 75px;
+    font-size: 40px;
+}
+.hospital img
+{
+    width: 450px;
+    height: 400px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.client h1
+{
+    color: rgba(113, 32, 107, 0.719);
+    text-transform:capitalize ;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 50px;
+}
+.client div
+{
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.cl
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.cl img
+{
+    width: 80px;
+    height: 80px;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 50%;   
+}
+.cl p
+{
+    margin-left: 17px;
+    color: white;
+    font-size: 12px;
+}
+.client .cl1
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(113, 32, 107, 0.719) ;
+    margin-right: 30px;
+}
+
+.client .cl2
+{
+    width: 200px;
+    height: 200px;
+    background-color:  rgba(149, 41, 142, 0.719) ;
+    margin-right: 30px;
+}
+.client .cl3
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(185, 77, 178, 0.719) ;
+    margin-right: 30px;
+}
+.client .cl4
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(219, 116, 212, 0.719) ;
+    margin-right: 30px;
+}
+
+footer {
+    width: 100%;
+    height: 650px;
+    background-color: rgba(149, 41, 142, 0.719);
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.speech
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.speech h2
+{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.speech p
+{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.speech p:hover
+{
+    color: white;
+    cursor: pointer;
+}
+.content
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.info
+{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.legal
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.support
+{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.social{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.social h2
+{
+    font-size: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+}
+.icons1
+{
+    display: flex;
+}
+
+.section1 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.section1 img:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+/* .app
+{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(248, 246, 246);
+    margin-left: 80px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+.app img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.app:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+.and
+{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(250, 247, 247);
+    margin-left: 50px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+.and img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.and:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+} */
+footer hr
+{
+    height: 10px;
+}
+.end
+{
+ margin-left: 45%;
+ margin-top: 20px;
+}
+.end p
+{
+    color:black;
+}
+}
+@media (min-width:501px) and (max-width:1000px)
+{
+    .body
+    {
+       background-color: rgba(149, 41, 142, 0.719);
+       width:985px;
+       height: 100vh;
+       border-radius: 20px;
+       display: flex;
+       position: relative;
+    }
+    .body pre
+    {
+       font-size: 50px;
+       font-weight: bold;
+       text-transform: capitalize;
+       z-index: 10;
+       color:black;
+       position: absolute;
+       margin-top: 250px;
+       margin-left: 60px;
+    }
+    .body img
+    {
+       width: 935px;
+       height:100vh ;
+       border-radius: 20px;
+       margin: 25px;
+    }
+    header
+    {
+        height: 90px;  
+    }
+    .list
+    {
+        margin-left: 100px;
+        margin-top: 40px;  
+    }
+    .list li
+    {
+        font-size: 17px;
+    }
+    
+    .title h1
+    {
+        margin-left: 300px;
+        margin-top:100px;
+        font-size: 50px;
+        text-transform: capitalize;
+        color:  rgba(113, 32, 107, 0.719);
+    }
+    .title pre
+    {
+        font-size: 20px;
+        text-transform: capitalize;
+        margin-left:210px ;
+        margin-top: 20px;
+        color: rgba(149, 41, 142, 0.719);
+    }
+    .sections
+    {
+        margin-left: 250px;
+    }
+    .side img
+    {
+        display: none;
+    }
+    
+    .ddd
+    {
+        margin-top: 150px;
+    }
+                       
+    .ddd h1
+    {
+        margin-left: 50px;
+        padding-top: 20px;
+        color: white;
+        font-size: 25px;
+    }
+    .ddd pre
+    {
+        color: white;
+        font-size: 15px;
+        margin-top: 35px;
+    }
+    .ddd .f1
+    {
+        background-color: rgba(113, 32, 107, 0.719);
+        height: 300px;
+        width: 400px;
+        border-radius: 20px;
+        margin-left:70px;
+        margin-top: 50px;
+    }
+    .ddd .f2
+    {
+        background-color: rgba(149, 41, 142, 0.719);
+        height: 300px;
+        width: 400px;
+        border-radius: 20px;
+        margin-left:50px;
+        margin-top: 50px;
+    }
+    .ddd .f3
+    {
+        background-color: rgba(185, 77, 178, 0.719);
+        height: 300px;
+        width: 400px;
+        border-radius: 20px;
+        margin-left:70px;
+        margin-top: 50px;
+    }
+    .f3 h2
+    {
+        color: white;
+        font-size: 2em;
+        margin-left: 50px;
+        padding-top: 20px;
+    }
+    .ddd .f4
+    {
+        background-color:  rgba(219, 116, 212, 0.719);    
+        height: 300px;
+        width: 400px;
+        border-radius: 20px;
+        margin-left:50px;
+        margin-top: 50px;
+    }
+    .spec
+    {
+        display: flex;
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+    .spe h1
+    {
+        margin-top: 150px;
+        margin-left: 300px;
+        font-size: 50px;
+        text-transform: capitalize;
+        color: rgba(113, 32, 107, 0.719);
+    }
+    .spe h2
+    {
+        color: rgba(149, 41, 142, 0.719);
+        margin-left: 285px;
+        margin-top: 20px;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    .spe img
+    {
+        width: 250px;
+        height: 300px;
+        margin-left: 40px;
+        border-radius: 50%;
+    }
+    .spe img:hover
+    {
+       opacity: .7;
+       transform: scale(.9,.9);
+       transition: .3s;
+    }
+    .spe p
+    {
+        font-size: 23px;
+        margin-left: 70px;
+        text-transform: capitalize;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .spe a
+    {
+        color: black;
+    }
+    .spe a:hover
+    {
+        opacity: .5;
+    }
+    .ser h1
+    {
+        margin-top: 200px;
+        margin-left: 350px;
+        margin-bottom: 50px;
+        font-size: 50px;
+        text-transform: capitalize;
+        color: rgba(113, 32, 107, 0.719);
+    }
+    .ser .dep1
+    {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .ser .dep2
+    {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .ser img
+    {
+        margin-left: 60px;
+        width: 80px;
+        height: 80px;
+        margin-top: 20px
+    
+    }
+    .ser p
+    {
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 40px;
+        margin-top: 10px;
+        text-transform: capitalize;
+    }
+    .ser pre
+    {
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 35px;
+        margin-top: 10px;
+        text-transform: capitalize;
+    }
+    .ser .f5
+    {
+        background-color:  rgba(219, 116, 212, 0.719);    
+        width: 200px;
+        height: 170px;
+        border-radius: 50px;
+        margin: 20px;
+    }
+    .ser .f5:hover
+    {
+        transform: scale(1.2,1.2);
+        transition: .7s;
+    }
+    
+    .ser .f6
+    {
+        background-color: rgba(185, 77, 178, 0.719);
+        width: 200px;
+        height: 170px;
+        border-radius: 50px;
+        margin: 20px;
+    }
+    .ser .f6:hover
+    {
+        transform: scale(1.2,1.2);
+        transition: .7s;
+    }
+    .ser .f7
+    {
+        background-color: rgba(149, 41, 142, 0.719);
+        width: 200px;
+        height: 170px;
+        border-radius: 50px;
+        margin: 20px;
+    }
+    .ser .f7:hover
+    {
+        transform: scale(1.2,1.2);
+        transition: .7s;
+    }
+    .ser .f8
+    {
+        background-color: rgba(113, 32, 107, 0.719);
+        width: 200px;
+        height: 170px;
+        border-radius: 50px;
+        margin: 20px;
+    }
+    .ser .f8:hover
+    {
+        transform: scale(1.2,1.2);
+        transition: .7s;
+    }
+    .ser .f9
+    {
+        background-color: rgba(113, 32, 107, 0.719);
+        width: 200px;
+        height: 170px;
+        border-radius: 50px;
+        margin: 20px;
+    }
+    .ser .f9:hover
+    {
+        transform: scale(1.2,1.2);
+        transition: .7s;
+    }
+    .ser .f10
+    {
+        background-color: rgba(149, 41, 142, 0.719);
+        width: 200px;
+        height: 170px;
+        border-radius: 50px;
+        margin: 20px;
+    }
+    .ser .f10:hover
+    {
+        transform: scale(1.2,1.2);
+        transition: .7s;
+    }
+    .ser .f11
+    {
+        background-color: rgba(185, 77, 178, 0.719);
+        width: 200px;
+        height: 170px;
+        border-radius: 50px;
+        margin: 20px;
+    }
+    .ser .f11:hover
+    {
+        transform: scale(1.2,1.2);
+        transition: .7s;
+    }
+    .ser .f12
+    {
+        background-color:  rgba(219, 116, 212, 0.719);    
+        width: 200px;
+        height: 170px;
+        border-radius: 50px;
+        margin: 20px;
+    }
+    .ser .f12:hover
+    {
+        transform: scale(1.2,1.2);
+        transition: .7s;
+    }
+    
+    .hospital
+    {
+        margin-left: 15px;
+        margin-top: 100px;
+    }
+    .hospital h1
+    {
+        color: rgba(113, 32, 107, 0.719);
+        text-transform:capitalize ;
+        margin-top: 20px;
+        margin-left: 300px;
+        font-size: 40px;
+    }
+    .hospital img
+    {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .climg
+    {
+        margin-top: 20px;
+        display: flex;
+    }
+    .client h1
+    {
+        color: rgba(113, 32, 107, 0.719);
+        text-transform:capitalize ;
+        margin-top: 20px;
+        margin-left: 320px;
+        font-size: 50px;
+    }
+    .client div
+    {
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+    .cl
+    {
+        display: flex;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .cl img
+    {
+        width: 80px;
+        height: 80px;
+        margin-left: 60px;
+        margin-top: 20px;
+        border-radius: 50%;   
+    }
+    .cl p
+    {
+        margin-left: 17px;
+        color: white;
+        font-size: 12px;
+    }
+    .client .cl1
+    {
+        width: 200px;
+        height: 200px;
+        background-color: rgba(113, 32, 107, 0.719) ;
+        margin-right: 30px;
+    }
+    
+    .client .cl2
+    {
+        width: 200px;
+        height: 200px;
+        background-color:  rgba(149, 41, 142, 0.719) ;
+        margin-right: 30px;
+    }
+    .client .cl3
+    {
+        width: 200px;
+        height: 200px;
+        background-color: rgba(185, 77, 178, 0.719) ;
+        margin-right: 30px;
+    }
+    .client .cl4
+    {
+        width: 200px;
+        height: 200px;
+        background-color: rgba(219, 116, 212, 0.719) ;
+        margin-right: 30px;
+    }
+    
+    footer {
+        width: 100%;
+        height: 550px;
+        background-color: rgba(149, 41, 142, 0.719);
+        border-radius: 20px;
+        margin-top: 100px;
+    }
+    .speech
+    {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .speech h2
+    {
+        font-size: 25px;
+        text-transform: capitalize;
+    }
+    .speech p
+    {
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .speech p:hover
+    {
+        color: white;
+        cursor: pointer;
+    }
+    .content
+    {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    .info
+    {
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .legal
+    {
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .support
+    {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .social{
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .social h2
+    {
+        font-size: 25px;
+        margin-left: 25px;
+        text-transform: capitalize;
+    }
+    .icons1
+    {
+        display: flex;
+    }
+    
+    .section1 img{
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .section1 img:hover{
+        transform: scale(1.1,1.1);
+        cursor: pointer;
+        transition: .5s;
+    }
+    /* .app
+    {
+        width: 100px;
+        height: 70px;
+        background-color: rgb(248, 246, 246);
+        margin-left: 80px;
+        margin-top: 250px;
+        border-radius: 20px;
+    }
+    .app img
+    {
+        width: 50px;
+        height: 50px;
+        margin-left: 25%;
+        margin-top: 10px;
+    }
+    .app:hover
+    {
+        transform: scale(1.1,1.1);
+        cursor: pointer;
+        transition: .5s;
+    }
+    .and
+    {
+        width: 100px;
+        height: 70px;
+        background-color: rgb(250, 247, 247);
+        margin-left: 50px;
+        margin-top: 250px;
+        border-radius: 20px;
+    }
+    .and img
+    {
+        width: 50px;
+        height: 50px;
+        margin-left: 25%;
+        margin-top: 10px;
+    }
+    .and:hover
+    {
+        transform: scale(1.1,1.1);
+        cursor: pointer;
+        transition: .5s;
+    } */
+    footer hr
+    {
+        height: 10px;
+    }
+    .end
+    {
+     margin-left: 45%;
+     margin-top: 20px;
+    }
+    .end p
+    {
+        color:black;
+    }
+}

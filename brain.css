@@ -1,0 +1,979 @@
+*{
+    
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header
+{
+    display: flex;
+    background-color:  rgba(219, 116, 212, 0.719) ;
+    border-radius: 20px;
+}
+.logo
+{
+    display: flex;
+}
+.logo a
+{
+    color:white;
+    text-transform: capitalize;
+}
+.logo a:hover
+{
+    color:rgba(113, 32, 107, 0.719);
+    transition: .4s;
+    cursor: pointer;
+
+}
+.logo p
+{
+    margin: 20px;
+    margin-left: 25px;
+    font-size: 35px;
+    font-weight: 900;
+}
+.logo img
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 26px;
+}
+.logo img:hover
+{
+    cursor: pointer;
+}
+
+.list
+{
+    margin-left: 500px;
+    margin-top: 30px; 
+    list-style: none;      
+}
+.list li
+{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 25px;
+    
+}
+.list li a
+{
+    color:white ;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.list a:hover
+{
+    color:rgba(113, 32, 107, 0.719);
+    transform: scale( 1.1 , 1.1 );
+    transition: .4s;
+    cursor: pointer;
+}
+.fas
+{
+    visibility: hidden;
+}
+.sidebar
+{
+    display: none;
+}
+.title 
+{
+    display: flex;
+    position: relative;
+}
+.title h1
+{
+    font-size: 50px;
+    color: white ;
+    margin-top: 10px;
+    margin-left: 500px;
+    z-index: 10;
+    position: absolute;
+}
+.title img
+{
+    width: 100%;
+    height:100dvh;
+    border-radius: 20px;
+}
+.what h1
+{
+    color: rgb(113, 32, 108);
+    text-transform:capitalize ;
+    margin-top: 20px;
+    margin-left: 500px;
+    font-size: 50px;
+}
+.pro
+{
+    display: flex;
+}
+.pro1
+{
+    width: 550px;
+    height: 520px;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color:  rgba(113, 32, 108, 0.769);
+    border-radius: 20px;
+}
+.pro1 p
+{
+    font-size:28px;
+    color: white;
+    padding: 50px;
+}
+.pro2
+{
+    background-color:  rgb(113, 32, 108, 0.769);
+    border-radius: 20px;
+    width: 650px;
+    margin-top: 30px;
+    margin-left: 100px;
+    
+}
+.pro2 ul
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+.pro2 li
+{
+    font-size: 30px;
+    margin: 25px;
+    color: white;
+}
+.dr h1
+{
+    color: rgb(113, 32, 108);
+    text-transform:capitalize ;
+    margin-top: 60px;
+    margin-left: 620px;
+    font-size: 50px;
+}
+
+.dr img
+{
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+    background-color:  rgb(113, 32, 108);
+}
+.dr .img1
+{
+    margin-top: 30px;
+    display: flex;
+}
+.dr .img1 img
+{
+    margin: 25px;
+}
+.table1
+{
+    margin-left: 150px;
+    display: none;
+}
+.table1 td
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-top: 50px;
+}
+.img1 .button1
+{
+    width: 110px;
+    height: 70px;
+    margin-top: 250px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 200px;
+    background-color:  rgb(113, 32, 108);
+    font-size: 20px;
+    text-transform: capitalize;
+    display: none;
+}
+.img1 .button1:hover
+{
+    cursor: pointer;
+    transform: scale(.9,.9);
+    transition: .5s;
+}
+.img1 .button2
+{
+    width: 150px;
+    height: 70px;
+    margin-top: 250px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 50px;
+    background-color:  rgb(113, 32, 108);
+    font-size: 20px;
+    text-transform: capitalize;
+    display: none;
+}
+.img1 .button2:hover
+{
+    cursor: pointer;
+    transform: scale(.9,.9);
+    transition: .5s;
+}
+.dr .img1:hover
+{
+    transition:.5s;
+    width: 90%;
+    background-color:  rgba(219, 116, 212, 0.719);
+    border-radius: 50px;
+}
+.dr .img1:hover .table1
+{
+    display: block;
+}
+.dr .img1:hover .button1
+{
+   display: block;
+}
+.dr .img1:hover .button2
+{
+   display: block;
+}
+
+.dr .img2
+{
+    margin-top: 30px;
+    margin-left: 147px;
+    display: flex;
+}
+.dr .img2 img
+{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 130px;
+}
+.table2
+{
+    margin-left:100px;
+}
+.table2 td
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.img2 .button1
+{
+    width: 110px;
+    height: 70px;
+    margin-top: 230px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 150px;
+    background-color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.img2 .button1:hover
+{
+    cursor: pointer;
+    transform: scale(.9,.9);
+    transition: .5s;
+}
+.img2 .button2
+{
+    width: 150px;
+    height: 70px;
+    margin-top: 230px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 50px;
+    background-color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.img2 .button2:hover
+{
+    cursor: pointer;
+    transform: scale(.9,.9);
+    transition: .5s;
+}
+.dr .img2:hover
+{
+    transition:.5s;
+    width: 90%;
+    background-color:  rgba(219, 116, 212, 0.719);
+    border-radius: 50px;
+}
+.dr .img2:hover .button1
+{
+    background-color:  rgb(113, 32, 108);
+    transition:.5s ;
+}
+.dr .img2:hover .button2
+{
+    background-color:  rgb(113, 32, 108);
+    transition:.5s ;
+}
+button a
+{
+    color: white;
+}
+
+.clinic
+{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.climg
+{
+    margin-top: 20px;
+    display: flex;
+}
+.clinic h1
+{
+    color: rgb(113, 32, 108);
+    text-transform:capitalize ;
+    margin-top: 20px;
+    margin-left: 550px;
+    font-size: 50px;
+}
+.clinic img
+{
+    width: 450px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+footer {
+    width: 100%;
+    height: 370px;
+    background-color: rgba(149, 41, 142, 0.719);
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.speech
+{
+    display: flex;
+}
+.speech h2
+{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.speech p
+{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.speech p:hover
+{
+    color: white;
+    cursor: pointer;
+}
+.content
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.info
+{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.legal
+{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.support
+{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.social{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.social h2
+{
+    font-size: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+}
+
+.section1 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.section1 img:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+/* .app
+{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(248, 246, 246);
+    margin-left: 80px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+.app img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.app:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+.and
+{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(250, 247, 247);
+    margin-left: 50px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+.and img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.and:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+} */
+footer hr
+{
+    height: 10px;
+}
+.end
+{
+ margin-left: 45%;
+ margin-top: 20px;
+}
+.end p
+{
+    color: rgb(16, 15, 15);
+}
+@media (max-width:500px)
+{
+    
+   header
+   {
+     height: 90px;  
+   }
+   header img
+   {
+     display: none; 
+   }
+   header .fas
+   {
+    visibility: visible;
+    margin-left: 30px;
+    color: white;
+    font-size: 40px;
+    margin-top: 25px;
+   }
+   header .fas:hover
+   {
+    color: rgba(113, 32, 107, 0.719);
+   }
+   .sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(189, 159, 159, 0.329);
+    box-shadow: -10px 0 10px rgb(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+   }
+ 
+ .sidebar li {
+    width: 100%;
+    
+ }
+ .sidebar a {
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+ }
+ .sidebar a:hover{
+    cursor: pointer;
+    color:  rgba(113, 32, 107, 0.719);
+ }
+ .title h1
+ {
+    margin-left: 70px;
+    font-size: 30px;
+ }
+ .what h1
+ {
+    margin-left: 30px;
+    margin-top: 20px;
+ }
+ .what .pro
+ {
+    flex-direction: column;
+ }
+ .what .pro1
+ {
+    margin-left: 40px;
+    width: 400px;
+    height: 350px;
+ }
+ .what .pro1 p
+ {
+    font-size: 20px;
+    padding: 30px;
+ }
+ .what .pro2
+ {
+    margin-left: 40px;
+    width: 400px;
+    height: 400px;
+ }
+ .what ul
+ {
+    padding-top: 10px;
+    margin-left: 30px;
+ }
+ .what li
+ {
+    font-size: 20px;
+ }
+ .dr h1
+ {
+    margin-left: 150px;
+ }
+ .dr .img1
+ {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+ }
+ .dr .img1 img
+ {
+    margin-left: 90px;
+ }
+ .table1
+ {
+    margin-left: 50px;
+ }
+ .table1 td
+ {
+    padding-top: 30px;
+ }
+ .img1 .button1
+ {
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+ }
+ .dr .img2
+ {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+ }
+ .dr .img2 img
+ {
+    margin-left: 90px;
+ }
+ .table2
+ {
+    display: none;
+ }
+ .img2 .button1
+ {
+    display: none;
+ }
+ .clinic
+ {
+    margin-left: 10px;
+ }
+ .clinic h1
+ {
+    margin-left: 120px;
+ }
+ .climg
+ {
+    flex-direction: column;
+    
+ }
+ 
+footer {
+    width: 100%;
+    height: 650px;
+    background-color: rgba(149, 41, 142, 0.719);
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.speech
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.speech h2
+{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.speech p
+{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.speech p:hover
+{
+    color: white;
+    cursor: pointer;
+}
+.content
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.info
+{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.legal
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.support
+{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.social{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.social h2
+{
+    font-size: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+}
+.icons1
+{
+    display: flex;
+}
+
+.section1 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.section1 img:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+/* .app
+{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(248, 246, 246);
+    margin-left: 80px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+.app img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.app:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+.and
+{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(250, 247, 247);
+    margin-left: 50px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+.and img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.and:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+} */
+footer hr
+{
+    height: 10px;
+}
+.end
+{
+ margin-left: 45%;
+ margin-top: 20px;
+}
+.end p
+{
+    color:black;
+}
+}
+@media (min-width:501px) and (max-width:1000px)
+{
+    
+    header
+    {
+        height: 90px;  
+    }
+    .list
+    {
+        margin-left: 100px;
+        margin-top: 40px;  
+    }
+    .list li
+    {
+        font-size: 17px;
+    }
+    .title h1
+    {
+        margin-left: 155px;
+    }
+    .what h1
+    {
+        margin-left: 300px;
+    }
+    .what .pro1
+    {
+        margin-left: 50px;
+        height: 400px;
+        width: 400px;
+    }
+    .pro1 p
+    {
+        font-size: 20px;
+        padding-top: 35px;
+    }
+    .what .pro2
+    {
+        margin-left: 50px;
+        height: 400px;
+        width: 400px;
+    }
+    .pro2 li
+    {
+        font-size: 20px;
+        margin-left: 0px;
+
+    }
+    .dr h1
+    {
+        margin-left: 380px;
+    }
+    .table1
+    {
+        margin-left: 50px;
+    }
+    .table1 td
+    {
+        font-size: 18px;
+    }
+    .dr .img1:hover
+    {
+        width: 100%;
+    }
+    .img1 .button1
+    {
+        margin-left: 150px;
+    }
+    .dr .img2
+    {
+        margin-left: 0px;
+    }
+    .table2
+    {
+        margin-left: 50px;
+    }
+    .table2 td
+    {
+        font-size: 18px;
+    }
+    .dr .img2 .button1
+    {
+        margin-left: 150px;
+    }
+    .dr .img2 img
+    {
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .dr .img2:hover
+    {
+        width: 100%;
+    }
+    .clinic
+    {
+        margin-left: 20px;
+    }
+    .clinic h1
+    {
+        margin-left: 350px;
+    }
+
+    .clinic img
+    {
+        width: 300px;
+        height: 250px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer {
+        width: 100%;
+        height: 550px;
+        background-color: rgba(149, 41, 142, 0.719);
+        border-radius: 20px;
+        margin-top: 100px;
+    }
+    .speech
+    {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .speech h2
+    {
+        font-size: 25px;
+        text-transform: capitalize;
+    }
+    .speech p
+    {
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .speech p:hover
+    {
+        color: white;
+        cursor: pointer;
+    }
+    .content
+    {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    .info
+    {
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .legal
+    {
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .support
+    {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .social{
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .social h2
+    {
+        font-size: 25px;
+        margin-left: 25px;
+        text-transform: capitalize;
+    }
+    .icons1
+    {
+        display: flex;
+    }
+    
+    .section1 img{
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .section1 img:hover{
+        transform: scale(1.1,1.1);
+        cursor: pointer;
+        transition: .5s;
+    }
+}

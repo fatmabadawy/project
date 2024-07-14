@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Book Place</title>  
+
+     <style>
+#contact{
+    background-color:rgba(149, 41, 142, 0.719);
+    border-radius: 10px;
+}
+
+#contact .title{
+     text-align: center;
+     color: #ddd;
+     padding-top: 10px;
+}
+#contact .row{
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    align-items: center;
+    column-gap: 2px;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#contact .row .form-control{
+    display: grid;
+    column-gap: 1.5rem;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 2px;
+    margin-bottom: 50px;
+    width: 97%;
+    margin-left: 20px;
+}
+
+#contact .row .form-controll{
+    display: grid;
+    column-gap: 1.5rem;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 2px;
+    margin-bottom: 50px;
+    width: 97%;
+    margin-left: 20px;
+}
+
+
+#contact .row .form-control input,
+#contact .row .form-control select,
+#contact .row textarea{
+    padding: 15px;
+    color: gray;
+    outline-color:rgba(149, 41, 142, 0.719);
+    border: 1px solid #ddd;
+}
+
+#contact .row .form-controll input{
+    padding: 15px;
+    width: 95%;
+    color: gray;
+    outline-color: lightblue;
+    border: 1px solid #ddd;
+}
+
+#contact .row textarea{
+    width: 97%;
+}
+
+#contact .btn{
+    padding: 15px, 30px;
+    border: none;
+    margin-top: 25px;
+    color: rgba(149, 41, 142, 0.719);;
+    width: 170px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#contact .btn:hover
+{
+    cursor: pointer;
+    scale:.9;
+}
+
+</style>
+
+
+</head>
+<body>
+    <main>
+        <section id="contact">
+            <div class="container">
+            <div class="title">
+                <h2>We Are Always Ready To Help You, Book An Appointment</h2>
+                <p>take care of your health</p>
+            </div>
+            <div class="row">
+                <form>
+                    <div class="form-controll">
+                       <input type="text" name="Name" placeholder="Name" required>               
+                       <input id="email" type="email" name="Email" placeholder="Email" required> 
+                    </div>
+                    <!-- <div>
+                        <input id="email" type="email" name="Email" placeholder="Email" required> 
+
+                    </div> -->
+                    <div class="form-control">
+                        <!-- <input type="number" name="Phone" placeholder="Phone" required>  -->
+                        <select name="department">
+                            <option value="1" selected>department</option>
+                            <option value="2" >Cardiology</option>
+                            <option value="3" >Pediatrics & Neonatilogy</option>
+                            <option value="4" >Nephrology</option>
+                            <option value="5" >Neurology</option>
+                        </select>
+                        <input type="number" name="Phone" placeholder="Phone" required> 
+
+                    </div>
+                    <div class="form-control">
+                        <select name="doctor" >
+                            <option value="1" selected>Doctor</option>
+                            <option value="2" >Doctor</option>
+                            <option value="3" >Doctor</option>
+                            <option value="4" >Doctor</option>
+                            <option value="5" >Doctor</option>
+                            <option value="6" >Doctor</option>
+                            <option value="7" >Doctor</option>
+                        </select>
+                        <input type="date" name="Date" placeholder="Date" required>
+                    </div>
+                    <textarea name="Message" cols="30" rows="10" placeholder="Write Your Messege Here..."></textarea>
+                    <button onclick="fun()" type="submit" class="btn btn-primary">Book An Appointment</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script>
+        function fun()
+        {
+            alert("your data has recived and it will be check soon");
+        }
+    </script>
+</body>
+</html>
