@@ -1,0 +1,1189 @@
+*{
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+header
+{
+    display: flex;
+    background-color:  rgba(219, 116, 212, 0.719) ;
+    border-radius: 20px;
+    /* position: fixed;
+    width: 100%;
+    top: 0; */
+}
+.logo
+{
+    display: flex;
+}
+.logo a
+{
+    color:white;
+    text-transform: capitalize;
+}
+.logo a:hover
+{
+    color:rgba(113, 32, 107, 0.719);
+    transition: .4s;
+    cursor: pointer;
+
+}
+.logo p
+{
+    margin: 20px;
+    margin-left: 25px;
+    font-size: 35px;
+    font-weight: 900;
+}
+.logo img
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 26px;
+}
+.logo img:hover
+{
+    cursor: pointer;
+}
+
+.list
+{
+    margin-left: 500px;
+    margin-top: 30px;    
+}
+.list li
+{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.list li a
+{
+    color:white ;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.list a:hover
+{
+    color:rgba(113, 32, 107, 0.719);
+    transform: scale( 1.1 , 1.1 );
+    transition: .4s;
+    cursor: pointer;
+}
+.fas
+{
+   visibility: hidden;
+}
+.sidebar
+{
+   display: none;
+}
+
+.cover-main {
+    height: 500px;
+    background-image: url('abstract-blur-shopping-mall.jpg') ;
+    background-size: cover ;
+    background-position: center; 
+    color: rgb(69, 13, 122); 
+    text-align: left; 
+    font-size: xx-large;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+.world{
+color:  rgb(113, 32, 108);
+}.showbut {
+    width: 300px;
+    height: 80px;
+    font-size: large;
+    background-color: rgba(219, 116, 212, 0.719);
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.showbut a {
+    color: white;
+    text-decoration: none; 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .75s;
+
+}
+.showbut :hover{
+    font-size:larger;
+    background-color: rgba(113, 32, 107, 0.719);
+    transform: scale(1.005);
+}
+#container{
+    width: 100%;
+    height:1300px;
+    display:flex;
+    flex-direction: row;
+    position: relative;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    height: 100%;
+    width: 70%;
+}
+.title{
+    background-color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    height: 4%;
+    text-align: center;
+    font-family: sans-serif ;
+    background-color: rgba(219, 116, 212, 0.719);
+
+}
+
+#baby{
+    height: 25%;
+    width: 100%;
+}
+.innerbaby{
+    text-align: center;
+    font-size:xx-large;
+    align-items: center;
+    height: 20%;
+    border: 3px   rgba(137, 43, 226, 0.228) solid;
+}
+.babylogo{
+    width:35px ;
+    height: 30px;
+}
+.imagggeee{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.img1 , .img2 , .img3 , .img4{
+    width: 24%;
+    text-align: center;
+    align-items: center;
+    height: 70%;
+    transition: 1.1S;
+    padding-top: 10px;
+    position: relative;
+
+}
+.img1 :hover , .img2 :hover, .img3 :hover , .img4 :hover{
+    transform: scale(1.075);
+
+}
+
+#heart{
+    height: 25%;
+    width: 100%;
+
+}
+#doctorsNeed{
+    height: 25%;
+    width: 100%;
+}
+#selfCare{
+    height: 25%;
+    width: 100%;
+}
+
+.leftofproducts{
+    right:10px;
+    height: 100%;
+    width: 30%;
+
+}
+.sectionsOfMedicien{
+    height: 30%;
+    width: 100%;
+}
+
+
+.most-rated{
+    height: 70%;
+    width: 100%;
+}
+.headerSection{
+    
+        background-color: white;
+        font-size: x-large;
+        font-weight: bolder;
+        height: 12%;
+        text-align: center;
+        font-family: sans-serif ;
+        background-color:  rgba(219, 116, 212, 0.719);
+}
+
+.sections {
+    font-size: xx-large;
+    list-style-type: none; 
+    padding: 50px; 
+    margin: 0;
+}
+
+.sections li {
+    margin: 20px 25px; 
+    transition: 0.75s;
+
+}
+
+.sections a {
+    color:rgba(113, 32, 107, 0.719);
+    text-decoration: none; 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.75s;
+}
+.sections li:hover{
+    transform: scale(1.05);
+}
+.mostrelated{    
+    background-color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    height: 5%;
+    text-align: center;
+    font-family: sans-serif ;
+    background-color: rgba(219, 116, 212, 0.719);
+}
+    /* {
+        white ;
+        black;
+        rgba(149, 41, 142, 0.719);
+        rgba(219, 116, 212, 0.719);
+        rgba(113, 32, 107, 0.719);
+        rgba(185, 77, 178, 0.719);
+    } */
+.containermostratedimage{
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    border: 10px solid #ddd;
+    border-radius: 300px;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+.divofimage{
+    
+    border: 20px solid white ;
+    border-radius: 300px;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+.mostratedimage{
+    right: 100px;
+    height: 40%;
+    width: 100%;
+}
+.rating {
+    display: inline-block;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: left;
+    position: relative;
+    width: 110%;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 36px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.rating label:before {
+    content: "\2605";
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#star1+label,
+#star2+label,
+#star3+label,
+#star4+label {
+    color: #ffc107;
+}
+
+.images{
+    display: flex;
+
+flex-direction: column;
+position: relative;
+height: 90%;
+width: 100%;
+}
+.imggg{
+
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+.imgg2{
+
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom:0;
+    }
+    
+footer {
+    width: 100%;
+    height: 370px;
+    background-color: rgba(149, 41, 142, 0.719);
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.speech
+{
+    display: flex;
+}
+.speech h2
+{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.speech p
+{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.speech p:hover
+{
+    color: white;
+    cursor: pointer;
+}
+.content
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.info
+{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.legal
+{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.support
+{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.social{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.social h2
+{
+    font-size: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+}
+
+.section1 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.section1 img:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+/* .app
+{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(248, 246, 246);
+    margin-left: 80px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+.app img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.app:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+.and
+{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(250, 247, 247);
+    margin-left: 50px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+.and img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.and:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+} */
+footer hr
+{
+    height: 10px;
+}
+.end
+{
+ margin-left: 45%;
+ margin-top: 20px;
+}
+.end p
+{
+    color:black;
+}
+
+    
+    @media (max-width: 1300px) {
+        
+    header
+    {
+        height: 90px;  
+    }
+    .list
+    {
+        margin-left: 100px;
+        margin-top: 40px;  
+    }
+    .list li
+    {
+        font-size: 17px;
+    }
+    
+        .cover-main {
+            height: auto;
+            font-size: large;
+            padding: 30px;
+            text-align: left;
+        }
+    
+        .showbut {
+            width: 250px;
+            height: 70px;
+            font-size: medium;
+        }
+    
+        #container {
+            flex-direction: row;
+            height: auto;
+        }
+    
+        .products {
+            width: 75%;
+        }
+    
+        .leftofproducts {
+            width: 25%;
+            height: auto;
+            margin-top: 20px;
+        }
+    
+        .title{
+            font-size: large;
+            padding: 10px 0;
+            height: 20px;
+            font-size: larger;
+        }
+        .mostrelated , .headerSection {
+            padding: 10px 0;
+            height: 65px;
+            font-size: smaller;
+        }
+    
+        .img1, .img2, .img3, .img4 {
+            width: 48%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    
+        .imagggeee {
+            flex-wrap: wrap;
+        }
+    
+        .sections {
+            font-size: large;
+            padding: 20px;
+        }
+    
+        .sections li {
+            margin: 10px 0;
+        }
+    
+        .containermostratedimage {
+            width: 80%;
+            margin: 0px;
+            padding: 20px;
+            flex-direction: column;
+            border: 0px solid #ddd; 
+
+        }
+    
+        .divofimage {
+            width: 90%;
+            margin: auto;
+        }
+        .imggg , .imgg2{
+            display: flex;
+            flex-direction: column;
+        }
+
+.mostratedimage{
+    right: 100px;
+    height: 40%;
+    width: 100%;
+}
+
+.rating {
+    display: inline-block;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: left;
+    position: relative;
+    width: 110%;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 36px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.rating label:before {
+    content: "\2605";
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#star1+label,
+#star2+label,
+#star3+label,
+#star4+label {
+    color: #ffc107; 
+}
+
+.images{
+    display: flex;
+
+flex-direction: column;
+position: relative;
+height: 90%;
+width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 550px;
+    background-color: rgba(149, 41, 142, 0.719);
+    border-radius: 20px;
+    margin-top: 350px;
+}
+.speech
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.speech h2
+{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.speech p
+{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.speech p:hover
+{
+    color: white;
+    cursor: pointer;
+}
+.content
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.info
+{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.legal
+{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.support
+{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.social{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.social h2
+{
+    font-size: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+}
+.icons1
+{
+    display: flex;
+}
+
+.section1 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.section1 img:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+/* .app
+{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(248, 246, 246);
+    margin-left: 80px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+.app img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.app:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+.and
+{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(250, 247, 247);
+    margin-left: 50px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+.and img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.and:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+} */
+footer hr
+{
+    height: 10px;
+}
+.end
+{
+ margin-left: 45%;
+ margin-top: 20px;
+}
+.end p
+{
+    color:black;
+}
+        
+    }
+    
+@media (max-width: 500px) {
+        
+   header
+   {
+     height: 90px;  
+   }
+   header img
+   {
+     display: none; 
+   }
+   header .fas
+   {
+    visibility: visible;
+    margin-left: 30px;
+    color: white;
+    font-size: 40px;
+    margin-top: 25px;
+   }
+   header .fas:hover
+   {
+    color: rgba(113, 32, 107, 0.719);
+   }
+   .sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(189, 159, 159, 0.329);
+    box-shadow: -10px 0 10px rgb(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+   }
+ 
+ .sidebar li {
+    width: 100%;
+    
+ }
+ .sidebar a {
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+ }
+ .sidebar a:hover{
+    cursor: pointer;
+    color:  rgba(113, 32, 107, 0.719);
+ }
+ 
+        .cover-main {
+            height: auto;
+            font-size: medium;
+            padding: 20px;
+            text-align: left;
+        }
+    
+        .showbut {
+            width: 200px;
+            height: 60px;
+            font-size: small;
+        }
+        .products{
+            width: 70%;
+        }
+        .leftofproducts{
+            width: 30%;
+        }
+    
+        .title, .headerSection, .mostrelated {
+            font-size: medium;
+            padding: 10px 0;
+        }
+    
+        .img1, .img2, .img3, .img4 {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    
+        .sections {
+            font-size: medium;
+            padding: 10px;
+        }
+    
+        .sections li {
+            margin: 5px 0;
+        }
+    
+        .containermostratedimage, .divofimage {
+            width: 100%;
+            margin: auto;
+        }
+.buybut {
+    width: 200px;
+    height: 60px;
+    font-size: medium;
+    background-color: rgba(219, 116, 212, 0.719);;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px; 
+}
+
+.buybut a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .75s;
+}
+.divofimage img{
+    width: 80px;
+    margin-left: -25px;
+}
+#star1+label,
+#star2+label,
+#star3+label,
+#star4+label ,
+#star5+label
+{
+    color: #ffc107;
+}
+
+.img1 :hover , .img2 :hover, .img3 :hover , .img4 :hover{
+    transform: scale(0.9);
+
+}
+.buybut:hover{
+    background-color: white;
+    color: blueviolet;
+}
+
+footer {
+    width: 100%;
+    height: 650px;
+    background-color: rgba(149, 41, 142, 0.719);
+    border-radius: 20px;
+    margin-top: 350px;
+}
+.speech
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.speech h2
+{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.speech p
+{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.speech p:hover
+{
+    color: white;
+    cursor: pointer;
+}
+.content
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.info
+{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.legal
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.support
+{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.social{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.social h2
+{
+    font-size: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+}
+.icons1
+{
+    display: flex;
+}
+
+.section1 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.section1 img:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+/* .app
+{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(248, 246, 246);
+    margin-left: 80px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+.app img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.app:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+.and
+{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(250, 247, 247);
+    margin-left: 50px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+.and img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.and:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+} */
+footer hr
+{
+    height: 10px;
+}
+.end
+{
+ margin-left: 45%;
+ margin-top: 20px;
+}
+.end p
+{
+    color:black;
+}
+
+    }
+
+
+    .specialestdoctors {
+        height: 800px;
+        width: 100%;
+    }
+    .headerdoctor {
+        height: 5%;
+        text-align: center;
+        background-color: rgba(219, 116, 212, 0.719);
+        font-weight: bolder;
+        font-size: xx-large;
+    }
+    .doctors {
+        height: 95%;
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .pharm1 {
+        border-radius: 25px; 
+        display: flex;
+        flex-direction: row;
+        height: 50%; 
+        align-items: center; 
+        margin-bottom: 10px;
+    }
+    .pharmimg {
+        background-color: rgba(113, 32, 107, 0.719);
+        height: 90%; 
+        width: 20%; 
+        border: 30px solid  rgba(219, 116, 212, 0.719); 
+        border-radius: 300px;
+        padding: 10px;
+        box-sizing: border-box; 
+    }
+    
+    .img1:hover .infoproduct, .img2:hover .infoproduct, .img3:hover .infoproduct, .img4:hover .infoproduct {
+        display: block;
+    }
+    .doctor-info {
+        text-align: center;
+        font-weight: bolder;
+        word-wrap: break-word;
+        font-size: small;
+        white-space: pre-line;
+        background-color:        rgba(113, 32, 107, 0.719);
+
+        height: 90%; 
+        width: 80%; 
+        border: 30px solid rgba(219, 116, 212, 0.719); 
+        border-radius: 300px;
+        padding: 10px;
+        box-sizing: border-box; 
+    }
+
+    .infoproduct {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 65%;
+        background-color: rgba(185, 77, 178, 0.719);
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .buynow {
+        border-radius: 200px;
+        width: 100%;
+        height: 25px;
+        background-color: white;
+        border: solid rgba(113, 32, 107, 0.719);
+    }
+    .buynow:hover {
+        background-color:rgb(113, 32, 108);
+        color: white;
+    }
+    
+    .product-name {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+    }
+    .product-price {
+        font-size: 20px;
+        color:rgb(113, 32, 108);
+    }
+    .product-price del {
+        color: #999;
+        margin-right: 10px;
+    }
+    
+    @media (max-width: 1200px) {
+        .pharm1 {
+            flex-direction: column;
+            height: auto;
+            margin-bottom: 20px; 
+        }
+        .pharmimg, .doctor-info {
+            width: 60%; 
+            height: auto;
+            border-radius: 50px;
+            margin-bottom: 10px;
+        }
+        .pharmimg {
+            height: 150px; 
+            width: 150px; 
+            border-radius: 50%;
+            border: 10px solid  rgba(219, 116, 212, 0.719);
+        }
+        .doctor-info {
+            border-radius: 25px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .headerdoctor {
+            font-size: large;
+        }
+        .pharm1 {
+            flex-direction: column;
+            height: auto;
+            margin-bottom: 20px; 
+        }
+        .pharmimg, .doctor-info {
+            width: 90%; 
+            height: auto;
+            border-radius: 50px;
+            margin-bottom: 10px;
+        }
+        .pharmimg {
+            height: 100px; 
+            width: 100px;
+            border-radius: 50%;
+            border: 5px solid  rgba(219, 116, 212, 0.719); 
+        }
+        .doctor-info {
+            border-radius: 25px;
+        }
+        .buynow {
+            width: 100px;
+            height: 20px;
+        }
+        .product-name {
+            font-size: 18px;
+        }
+        .product-price {
+            font-size: 16px;
+        }
+    }
