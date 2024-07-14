@@ -1,0 +1,291 @@
+*{
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+} 
+
+.home {
+            background-image: url("./1.jpg");
+            background-size: cover;
+            background-attachment: fixed ;
+            height: 550px;
+            font-style: italic;
+}
+
+.cl{
+    margin-bottom: 5px;
+    display: block;
+    background-color: rgba(149, 41, 142, 0.719) ;
+    /* margin-bottom: 20px; */
+    margin-top: 50px;
+
+}
+
+.cl .a{
+    margin-left: 45%;
+    color:white;
+}
+
+
+.do {
+    background-color: rgba(149, 41, 142, 0.719);
+    grid-template-columns: repeat(2,1fr);
+    display:flex ;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+.doc {
+    /* width: calc(50% - 1px); */
+    padding: 15px;
+    /* border: 10px solid #ddd; */
+    text-align: center;
+    box-sizing: border-box;
+    color:white;
+    /* width: 250%; */
+    /* display: flex; */
+
+}
+
+.doc img {
+    width: 350px ;
+    height: 350px;
+    object-fit: contain; 
+    /* margin-bottom: 10px; */
+}
+
+.contain {
+    width: 100%;
+    margin: 0 auto;
+}
+.par {
+    height: 230px;
+    width: 100%;
+}
+.home{
+    color: aliceblue;
+    text-align: center;
+}
+.par{
+    background-color:rgba(149, 41, 142, 0.719);
+}
+.par h2{
+    margin: 45%;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    font-style: italic;
+    color: white;
+}
+.par p{
+    font-size: medium;
+}
+header
+{
+    display: flex;
+    background-color:  rgba(219, 116, 212, 0.719) ;
+    border-radius: 20px;
+}
+.logo
+{
+    display: flex;
+}
+.logo a
+{
+    color:white;
+    text-transform: capitalize;
+}
+.logo a:hover
+{
+    color:rgba(113, 32, 107, 0.719);
+    transition: .4s;
+    cursor: pointer;
+
+}
+.logo p
+{
+    margin: 20px;
+    margin-left: 25px;
+    font-size: 35px;
+    font-weight: 900;
+}
+.logo img
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 26px;
+}
+.logo img:hover
+{
+    cursor: pointer;
+}
+
+.list
+{
+    margin-left: 500px;
+    margin-top: 30px; 
+    list-style: none;      
+}
+.list li
+{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 25px;
+    
+}
+.list li a
+{
+    color:white ;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.list a:hover
+{
+    color:rgba(113, 32, 107, 0.719);
+    transform: scale( 1.1 , 1.1 );
+    transition: .4s;
+    cursor: pointer;
+}
+.fas
+{
+    visibility: hidden;
+}
+.sidebar
+{
+    display: none;
+}
+    footer {
+    width: 100%;
+    height: 450px;
+    background-color: rgba(101, 29, 168, 0.575);
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.speech
+{
+    display: flex;
+}
+.speech h2
+{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.speech p
+{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.speech p:hover
+{
+    color: white;
+    cursor: pointer;
+}
+.content
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.info
+{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.legal
+{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.support
+{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.social{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.social h2
+{
+    font-size: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+}
+
+.section1 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.section1 img:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+/* .app
+{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(248, 246, 246);
+    margin-left: 80px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+.app img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.app:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+.and
+{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(250, 247, 247);
+    margin-left: 50px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+.and img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.and:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+} */
+footer hr
+{
+    height: 15px;
+}
+.end
+{
+ margin-left: 45%;
+ margin-top: 20px;
+}
+.end p
+{
+    color: rgb(16, 15, 15);
+}
